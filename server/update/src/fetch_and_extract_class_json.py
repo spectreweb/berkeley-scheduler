@@ -196,6 +196,8 @@ def main(only_new=False):
     with open(departments(), 'r') as f:
         subject_areas = json.load(f)['subjectAreas']
 
+    subject_areas = ['SEASIAN']
+
     num_total = len(subject_areas)
     completed = set()
 
